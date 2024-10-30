@@ -1,0 +1,379 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-05-04 10:32+0300\n"
+"PO-Revision-Date: 2023-05-04 10:37+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;--;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: includes/libs\n"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:85
+#: includes/class-borica-woo-payment-gateway-impl.php:192
+msgid "TEST MODE"
+msgstr "РЕЖИМ НА ТЕСТ"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:89
+#, fuzzy
+#| msgid "Enable BORICA Payments"
+msgid "BORICA Payments"
+msgstr "Активирай BORICA Payments"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:90
+msgid ""
+"BORICA Payments Checkout works by redirecting customers to BORICA payment "
+"page where they enter their card details. To use this payment option you "
+"need to have a virtual POS."
+msgstr ""
+"Разплащания чрез платежната система на БОРИКА работи, като пренасочва "
+"клиентите към страницата за плащане на BORICA, където те въвеждат данните на "
+"картата си. За да използвате тази опция за плащане, трябва да имате "
+"виртуален POS."
+
+#: includes/class-borica-woo-payment-gateway-impl.php:109
+msgid "Pay via Credit/Debit card"
+msgstr "Плащане с кредитна/дебитна карта"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:115
+msgid "Processed by BORICA"
+msgstr "Processed by BORICA"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:192
+msgid "ATTENTION, SYSTEM IS RUNNING IN TEST MODE."
+msgstr "ВНИМАНИЕ, СИСТЕМАТА РАБОТИ В ТЕСТОВ РЕЖИМ."
+
+#: includes/class-borica-woo-payment-gateway-impl.php:201
+msgid "Gateway Disabled"
+msgstr "Плъгинът е изключен"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:201
+msgid "BORICA Payments is disabled and cannot be used."
+msgstr "BORICA Payments е изключен и не може да се използва."
+
+#: includes/class-borica-woo-payment-gateway-impl.php:334
+msgid "Payment refunded<br/>Approval: "
+msgstr "Възстановяване на сумата<br/>Авторизационе код: "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:334
+#: includes/class-borica-woo-payment-gateway-impl.php:497
+#: includes/class-borica-woo-payment-gateway-impl.php:621
+msgid "<br/>Transaction Number: "
+msgstr "<br/>Референция (RRN): "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:334
+#: includes/class-borica-woo-payment-gateway-impl.php:497
+#: includes/class-borica-woo-payment-gateway-impl.php:534
+#: includes/class-borica-woo-payment-gateway-impl.php:621
+msgid "<br/>Gateway Order: "
+msgstr "<br/>Вътрешен номер (ORDER) : "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:334
+msgid "<br/>Net card payment: "
+msgstr "<br/>Нетна сума на карта: "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:334
+#: includes/class-borica-woo-payment-gateway-impl.php:497
+#: includes/class-borica-woo-payment-gateway-impl.php:621
+msgid "<br/>Internal Reference: "
+msgstr "<br/>Вътрешна рефернция: "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:334
+#: includes/class-borica-woo-payment-gateway-impl.php:340
+#: includes/class-borica-woo-payment-gateway-impl.php:497
+#: includes/class-borica-woo-payment-gateway-impl.php:534
+#: includes/class-borica-woo-payment-gateway-impl.php:621
+#: includes/class-borica-woo-payment-gateway-impl.php:633
+msgid "<br/>Reason: "
+msgstr "<br/>Описание: "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:340
+msgid "Payment refund declined with code: "
+msgstr "Отказано връщане на сума. Код на грешка: "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:406
+msgid "Pay"
+msgstr "Плати"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:497
+#: includes/class-borica-woo-payment-gateway-impl.php:621
+msgid "Payment approved<br/>Approval: "
+msgstr "Одобрено плащане<br/>Авторизационен код: "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:497
+#: includes/class-borica-woo-payment-gateway-impl.php:621
+msgid "<br/>Custom Order: "
+msgstr "<br/>Вътрешен номер (ORDER) : "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:510
+#: includes/class-borica-woo-payment-gateway-impl.php:530
+#: includes/class-borica-woo-payment-gateway-impl.php:626
+msgid "Payment cancelled by the client"
+msgstr "Плащането е отказано от клиента"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:534
+#: includes/class-borica-woo-payment-gateway-impl.php:633
+msgid "Payment declined with code: "
+msgstr "Отказано плащане. Код на грешка: "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:576
+msgid "Update Payment Status"
+msgstr "Провери статуса на плащането"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:629
+msgid "The order is not found!"
+msgstr "Поръчката не е открита!"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:655
+#: includes/class-borica-woo-payment-gateway-impl.php:701
+msgid "Cardholder info: "
+msgstr "Съобщение към клиента: "
+
+#: includes/class-borica-woo-payment-gateway-impl.php:941
+#: includes/class-borica-woo-payment-gateway-impl.php:1095
+msgid "No ZipArchive class available."
+msgstr "Няма наличен клас ZipArchive."
+
+#: includes/class-borica-woo-payment-gateway-impl.php:1004
+msgid "Check certificate"
+msgstr "Провери сертификат"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:1105
+msgid "Cannot read private key!"
+msgstr "Частният ключ не може да бъде прочетен!"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:1109
+msgid "Cannot read uploaded public key!"
+msgstr "Публичният ключ не може да бъде прочетен!"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:1112
+msgid ""
+"The uploaded public key does not correspond to the private key in settings!"
+msgstr "Зареденият публичен ключ не отговаря на частния ключ!"
+
+#: includes/class-borica-woo-payment-gateway-impl.php:1114
+msgid "The uploaded public key corresponds to the private key in settings."
+msgstr "Зареденият публичен ключ отговаря на частния ключ."
+
+#: includes/class-borica-woo-payment-gateway-settings-page.php:50
+msgid "Generate CSR"
+msgstr "Генерирай CSR"
+
+#: includes/class-borica-woo-payment-gateway-settings-page.php:155
+msgid "is required"
+msgstr "е задължителен"
+
+#: includes/class-borica-woo-payment-gateway-settings-page.php:173
+msgid "Error generating private key: "
+msgstr "Error generating private key: "
+
+#: includes/class-borica-woo-payment-gateway-settings-page.php:179
+msgid "Error generating CSR: "
+msgstr "Error generating CSR: "
+
+#: includes/class-borica-woo-payment-gateway-settings-page.php:185
+msgid "Error exporting private key: "
+msgstr "Error exporting private key: "
+
+#: includes/class-borica-woo-payment-gateway-settings-page.php:190
+msgid "Error exporting CSR: "
+msgstr "Error exporting CSR: "
+
+#: includes/class-borica-woo-payment-gateway.php:212
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/settings-gateway.php:14
+msgid "Enable/Disable"
+msgstr "Позволи/Забрани"
+
+#: includes/settings-gateway.php:15
+msgid "Enable BORICA Payments"
+msgstr "Активирай BORICA Payments"
+
+#: includes/settings-gateway.php:37
+msgid "Debugging"
+msgstr "Отстраняване на грешки (debugging)"
+
+#: includes/settings-gateway.php:38
+msgid "Enable debugging"
+msgstr "Активирай режима за отстраняване на грешки (debug mode)"
+
+#: includes/settings-gateway.php:43
+msgid "Test Mode"
+msgstr "Тестов режим"
+
+#: includes/settings-gateway.php:44
+msgid "Enable test mode"
+msgstr "Активирай тестов режим"
+
+#: includes/settings-gateway.php:50
+msgid "Back Reference URL (BACKREF)"
+msgstr "Адрес за получаване на отговор (BACKREF)"
+
+#: includes/settings-gateway.php:51
+msgid ""
+"Merchant URL for posting the authorization result. Send this URL to your "
+"bank/BORICA."
+msgstr ""
+"Адрес на търговеца, където се получават отговорите от платежния сървър. "
+"Изпратете този URL на Вашата обслужваща банка/БОРИКА."
+
+#: includes/settings-gateway.php:58
+msgid "Terminal Identifier (TID)"
+msgstr "Номер на терминал (TID)"
+
+#: includes/settings-gateway.php:59
+msgid "ID of the terminal, provided by your bank/BORICA."
+msgstr ""
+"Идентификационния номер на терминала, предоставен от Вашата обслужваща банка/"
+"БОРИКА."
+
+#: includes/settings-gateway.php:65
+msgid "Merchant Identifier (MID)"
+msgstr "Номер на търговеца (MID)"
+
+#: includes/settings-gateway.php:66
+msgid "Your Merchant ID, provided by your bank/BORICA."
+msgstr ""
+"Вашият идентификатор като търговец,  предоставен от Вашата обслужваща банка/"
+"БОРИКА."
+
+#: includes/settings-gateway.php:71
+msgid "Merchant Name"
+msgstr "Име на търговеца"
+
+#: includes/settings-gateway.php:72
+msgid ""
+"Merchant ID. Your customers will see this in their statement to identify the "
+"payment."
+msgstr ""
+"Вашият идентификатор като търговец. Вашите клиенти ще виждат този "
+"идентификатор в техните извлечения, за да идентифицират плащането."
+
+#: includes/settings-gateway.php:78
+msgid "Test environment  settings"
+msgstr "Настройки за тестова среда"
+
+#: includes/settings-gateway.php:83 includes/settings-gateway.php:120
+msgid "Private Key"
+msgstr "Частен ключ"
+
+#: includes/settings-gateway.php:85 includes/settings-gateway.php:122
+msgid ""
+"Upload here the private key for your terminal to access the payment gateway."
+"<br /> Allowed file types are .zip, .key."
+msgstr ""
+"Качете тук частния ключ на Вашия терминал за достъп до платежния сървър.<br /"
+"> Позволени формати на файла са .zip, .key."
+
+#: includes/settings-gateway.php:87 includes/settings-gateway.php:124
+msgid "Private key is not set"
+msgstr "Частният ключ не е зададен"
+
+#: includes/settings-gateway.php:90 includes/settings-gateway.php:127
+#: includes/settings-page.php:84 includes/settings-page.php:86
+msgid "Private Key Password"
+msgstr "Парола за частния ключ"
+
+#: includes/settings-gateway.php:92 includes/settings-gateway.php:129
+msgid "The password to your private key."
+msgstr "Паролата за Вашия частен ключ."
+
+#: includes/settings-gateway.php:97 includes/settings-gateway.php:134
+msgid "Check Keys"
+msgstr "Провери ключовете"
+
+#: includes/settings-gateway.php:99 includes/settings-gateway.php:136
+msgid ""
+"Upload the Public Key that corresponds to your Private Key to check "
+"consistency.<br /> Allowed file types are .zip, .cer."
+msgstr ""
+"Качете тук публичния ключ, който отговаря на Вашия частен ключ за проверка "
+"на консистентността. Позволени формати на файла са .zip, .cer."
+
+#: includes/settings-gateway.php:109
+msgid "BORICA APGW URL (Test environment)"
+msgstr "Адрес на платежния сървър (Тестова среда)"
+
+#: includes/settings-gateway.php:115
+msgid "Production environment settings"
+msgstr "Настройки за реална среда"
+
+#: includes/settings-gateway.php:146
+msgid "BORICA APGW URL (Production environment)"
+msgstr "Адрес на платежния сървър (Реална среда)"
+
+#: includes/settings-gateway.php:151
+msgid "Help"
+msgstr "Помощ"
+
+#: includes/settings-gateway.php:153
+msgid "Generate private key and CSR"
+msgstr "Генериране на частен ключ и заявка на сертификат"
+
+#: includes/settings-gateway.php:153
+msgid "More information about the plugin"
+msgstr "Допълнителна информация"
+
+#: includes/settings-page.php:15
+#, fuzzy
+#| msgid "Generate private key and CSR"
+msgid "Generate Private Key and CSR"
+msgstr "Генериране на частен ключ и заявка на сертификат"
+
+#: includes/settings-page.php:20 includes/settings-page.php:22
+msgid "Site Domain Name"
+msgstr ""
+
+#: includes/settings-page.php:29 includes/settings-page.php:31
+#, fuzzy
+#| msgid "Terminal Identifier (TID)"
+msgid "Terminal ID (TID)"
+msgstr "Номер на терминал (TID)"
+
+#: includes/settings-page.php:38 includes/settings-page.php:40
+#, fuzzy
+#| msgid "Merchant Name"
+msgid "Organization Name"
+msgstr "Име на търговеца"
+
+#: includes/settings-page.php:47 includes/settings-page.php:49
+msgid "City Name"
+msgstr ""
+
+#: includes/settings-page.php:56 includes/settings-page.php:58
+msgid "State or Province Name"
+msgstr ""
+
+#: includes/settings-page.php:65 includes/settings-page.php:67
+msgid "Country Code"
+msgstr ""
+
+#: includes/settings-page.php:75 includes/settings-page.php:77
+msgid "Email Address"
+msgstr ""
+
+#: includes/settings-page.php:88
+#, fuzzy
+#| msgid "Private Key Password"
+msgid "Private key Password"
+msgstr "Парола за частния ключ"
+
+#: includes/settings-page.php:96
+msgid "Cancel"
+msgstr "Отказ"
+
+#~ msgid "Testt: "
+#~ msgstr "Тестова: "
+
+#~ msgid "BORICA Payments Checkout"
+#~ msgstr "Активирай BORICA Payments"
